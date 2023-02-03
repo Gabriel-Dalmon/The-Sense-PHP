@@ -1,0 +1,555 @@
+:root{
+    font-size: 12px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1250px) { 
+    .room-logo{
+        width:50%;
+    }
+    .trailer {
+        height: 30vh !important;
+        width:30vh !important;
+    }
+
+}
+
+@media (max-width: 1024){
+    ul#nav-mobile{
+        visibility: hidden;
+    }
+    .trailer {
+        height: 20vh !important;
+        width:20vh !important;
+    }
+
+    #intro {
+        background-color: #eafffb;
+        height: 30vh !important;
+    }
+    #intro > :first-child{
+        display:flex;
+        align-items: center;
+        height:30vh !important;
+        width:30vh !important;
+    }
+}
+
+
+.cta{
+    background-color: #000;
+    border-radius: 0.3rem;
+    color:white;
+    font-family: 'Amiko', sans-serif;
+    font-size: 2.3rem;
+    height:5rem;
+    line-height: 5rem;
+    padding:0.2rem 2rem 0.2rem 2rem;
+    transition: 1ms;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+
+.cta:hover{
+    transition: 0.5ms;
+    outline:0.3rem solid white;
+    outline-style: solid dotted dotted solid;
+}
+
+
+.navbar{
+    position:fixed;
+    z-index: 55;
+    backdrop-filter: blur(5px);
+    font-family: 'Amiko', sans-serif;
+}
+
+.navbar a {
+    font-family: 'Amiko', sans-serif;
+    font-size: 1.6rem;
+    color:#000;
+}
+
+.navbar-line {
+    width: 1px;
+    height: 100%;
+    border-bottom: 25px solid black;
+    margin-top: 17px;
+}
+
+
+.top-section{
+    position:relative;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#intro {
+    background-color: #eafffb;
+    height: 50vh;
+}
+
+#intro > :first-child{
+    display:flex;
+    align-items: center;
+    height:50vh !important;
+    width:50vh;
+}
+
+.trailer {
+    height: 40vh;
+    width:40vh;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    outline: 20px solid #d3d3d3;
+    outline-offset: -5px;
+    padding: 0px !important;
+}
+
+.trailer a {
+    position: absolute;
+    z-index: 12;
+}
+
+.trailer-button-img {
+    height: 100%;
+}
+
+.title {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #3b4040;
+}
+
+.description {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: #646363;
+}
+
+.play-icon {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-play-icon {
+    font-size: 800%;
+    color: #3b4040ad;
+}
+
+.trailer-full {
+    width: 100%;
+    height: auto;
+}
+
+.modal-content {
+    background-color: #000;
+}
+
+
+.discovery-link{
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #646363;
+}
+
+
+
+
+
+.faq {
+    backdrop-filter: blur(5px);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    box-shadow: none;
+    font-family: 'Abel', sans-serif;
+    font-size: x-large;
+}
+
+.collapsible-header {
+    border-bottom: 0px;
+}
+
+.collapsible-body {
+    border-bottom: 0px;
+}
+
+.faq-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.press-carousel {
+    background-color: #eafffb;
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    height: 400px !important;
+}
+
+.press-carousel div p{
+    font-size: x-large !important;
+}
+
+.press-carousel-slide{
+    height: 400px;
+}
+
+.logo-press{
+    margin-top: 3%;
+    width: auto;
+    height: 100px
+}
+
+.logo-press img{
+    height: 100px;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #82ffe1;
+}
+
+.carousel .indicators .indicator-item{
+    background-color: #d3d3d3;
+    height: 2px;
+    width: 20px;
+    margin: 24px 10px;
+    border-radius: 0;
+}
+
+.news-card {
+    padding: 5%;
+}
+
+.news-banner{
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.news-text{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+.news-name{
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news-picture {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-height: 85vh;
+    overflow-y: hidden;
+    z-index: 3;
+    width: 100%;
+}
+
+.news-info {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding: 3rem;
+    margin-top: 0rem;
+    background-color: #cfdadb;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.reservation-table{
+    background-color: #000;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.reservation-title-and-price{
+    background-image: url('templates/assets/image_7.svg');
+    background-size: cover;
+}
+
+.reservation-title{
+    text-align: center;
+}
+
+.reservation-subtitle{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nos-tarifs{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(to top, white, white, #82ffe1, #82ffe1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.reservation-h-line{
+    width: 10%;
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    margin: 10px;
+    margin-left: 45%;
+    margin-top: 0px;
+}
+
+.reservation-text-1{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.reservation-text-2{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+}
+
+.reservation-text-time-1{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.reservation-text-time-2{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+}
+
+.reservation-text-time-3{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #9c0000;
+    font-size: 15px;
+}
+
+.reservation-text-time-4{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+
+.align-items-baseline{
+    align-items: baseline;
+}
+
+.reservation-text-time{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+}
+
+.reservation-room-list{
+    display: flex;
+    align-items: baseline;
+    margin-left: 30px;
+}
+
+.reservation-date-limit{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.reservation-date-day{
+    font-family: 'Amiko', sans-serif;
+    text-align: center;
+    color: #9c0000;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.reservation-heure{
+    font-family: 'Abel', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.occupe{
+    background-color: #9c0000;
+    border-radius: 0.5rem;
+}
+
+.libre{
+    background-color: #82ffe1;
+    border-radius: 0.5rem;
+}
+
+/* .reservation-line {
+    width: 1px;
+    height: 100%;
+    border-bottom: 400px solid #fff;
+    margin-top: 17px;
+} */
+
+.carre-rouge{
+    width: 30px;
+    height: 30px;
+    background-color: #9c0000;
+    border-radius: 0.5rem;
+}
+
+.reservation-text{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.carre-vert{
+    width: 30px;
+    height: 30px;
+    background-color: #82ffe1;
+    border-radius: 0.5rem;
+}
+
+.dispo-pas-dispo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.margin-right{
+    margin-right: 10px;
+}
+
+.margin-left{
+    margin-left: 40%;
+}
+
+.comment-carousel {
+    background-color: #eafffb;
+    color: #646363;
+    font-family: 'Abel', sans-serif;
+    height: 400px !important;
+}
+
+.comment-carousel div p{
+    font-size: x-large !important;
+}
+
+.comment-carousel-slide{
+    height: 400px;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-image: url('templates/assets/image_127.svg');
+}
+
+.carousel .indicators .indicator-item{
+    background-color: #d3d3d3;
+    height: 2px;
+    width: 20px;
+    margin: 24px 10px;
+    border-radius: 0;
+}
+
+
+.my-footer {
+    background-color: #3b4040;
+    padding-bottom: 20px;
+}
+
+.footer-list {
+    align-items: center;
+    display: inline-flex;
+}
+
+.footer-text {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    color: #82ffe1;
+}
+
+.footer-text-small {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 11px;
+    color: #82ffe1;
+    text-align: center;
+}
+
+.footer-text-small a {
+    color: #82ffe1;
+}
+
+.footer-line {
+    width: 1px;
+    height: 100%;
+    border-bottom: 25px solid #82ffe1;
+}
+
+.footer-margin-right {
+    margin-right: 20px;
+}
+
+.logo-pages {
+    height: 700px;
+}
+
+.faq {
+    backdrop-filter: blur(5px);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    box-shadow: none;
+    font-family: 'Abel', sans-serif;
+    font-size: x-large;
+}
+
+
+.faq-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.collapsible-header {
+    border-bottom: 0px;
+}
+
+.collapsible-body {
+    border-bottom: 0px;
+}

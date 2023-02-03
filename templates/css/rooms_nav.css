@@ -1,0 +1,23 @@
+.rooms-nav{
+    position:absolute;
+    top:10vh;
+    left:0;
+    right:0;
+    background:transparent;
+    box-shadow: none;
+}
+
+.rooms-nav a:hover{
+    background: transparent;
+}
+
+.rooms-nav a:hover img{
+    height:7rem;
+    transition: 0.3s;
+}
+
+.rooms-nav img {
+    max-width:100%;
+    height:5rem;
+    transition: 0.6s;
+}

@@ -1,0 +1,111 @@
+.experience-card{
+    width:95%;
+    margin:15vh auto;
+    font-size:0;
+}
+
+.experience-card ul {
+    display:flex;
+}
+
+.exp-banner{
+    position: relative;
+}
+
+.exp-pic-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-height: 85vh;
+    overflow-y: hidden;
+    z-index: 3;
+}
+
+.exp-pic-container img {
+    border-radius: 1rem 1rem 0px 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.exp-banner-info {
+    position: absolute;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 1rem;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 4;
+    backdrop-filter: blur(3px);
+}
+
+.exp-banner-info p {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+
+.exp-detail {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 3rem;
+    margin-top: 0rem;
+    background-color: #cfdadb;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    padding-bottom: 10px;
+    position:relative;
+}
+
+.experience-name h4{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+    padding-right: 10px;
+}
+
+.experience-room-name h4{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight:lighter;
+}
+
+.experience-line {
+    width: 2px;
+    height: 100%;
+    border-bottom: 40px solid #000;
+    margin-top: 20px;
+}
+
+.experience-text {
+    font-family: 'Abel', sans-serif;
+}
+
+.experience-card a {
+    color: #646363;
+}
+
+.experience-list-link {
+    display: flex;
+    align-items: center;
+}
+
+
+.experience-card .discovery-link{
+    position:absolute;
+    right:10%;
+    bottom:2rem;
+    text-decoration: none;
+    color: #646363;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.cs3{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
